@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Navbar*/
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 1rem 2rem;
+  color: #000000;
+  border-bottom: 1px solid #ccc;  /* เส้นบาง ๆ สีเทา */
+}
+
+.logo {
+  margin-left: 60px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #000000;
+  background-image: url('png/MY\ SHOP.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links a {
+  display: flex;
+  text-decoration: none;
+  color: #000000;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #098b25;
+}
+
+.nav-btns {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* ปรับ search-box ให้มีขนาดกำหนด และช่อง input กับปุ่มอยู่ในบรรทัดเดียวกัน */
+.search-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid #ccc;
+  padding: 0.3rem 0.6rem;
+  border-radius: 20px;
+  max-width: 250px;  /* กำหนดขนาด max */
+  flex-shrink: 0;    /* ไม่ให้ย่อ */
+  background-color: #fff;
+}
+
+.search-box input {
+  flex-grow: 1;        /* ให้ input ขยายเต็มพื้นที่ */
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  padding: 0.4rem 0.6rem;
+  border-radius: 20px;
+  background-color: #f9f9f9;
+  min-width: 0;       /* ป้องกัน input ขยายเกิน */
+}
+
+.search-box button {
+  background-color: #098b25;
+  color: white;
+  border: none;
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  flex-shrink: 0;     /* ไม่ให้ปุ่มย่อ */
+}
+
+.search-box button:hover {
+  background-color: #00ff6e;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  background-color: #098b25;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+  white-space: nowrap; /* ป้องกันข้อความในปุ่มตัดบรรทัด */
+}
+
+.btn:hover {
+  background-color: #00ff6e;
+}

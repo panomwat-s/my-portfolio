@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: 'cursive';
+  background-color: #fff;
+  color: #ffffff;
+  background-image: url('png/22.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+
+ .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.landing {
+    width: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.landing h1 {
+  font-weight: bold;
+  font-size: 3rem;
+  margin: 0.5rem 0 1.5rem 0;
+}
+
+.landing p {
+  font-size: 1rem;
+  margin: 0.5rem 0 1.5rem 0;
+}
+
+.buttons a.btn-primary{
+  padding: 0.5rem 1rem;
+  background-color: #098b25;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 0 0.5rem;
+  text-decoration: none;
+}
+
+.buttons a.btn-primary:hover {
+  background-color: #00ff6e;
+}
