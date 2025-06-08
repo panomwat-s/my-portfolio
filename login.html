@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Login</title>
+  <link rel="stylesheet" href="login.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+  <div class="login-box">
+    <div class="login-header">
+      <h2>Login</h2>
+    </div>
+    <form id="loginForm" class="login-form">
+      <div class="input-field">
+        <input type="text" id="email" placeholder="Email Address" required />
+      </div>
+      <div class="input-field">
+        <input type="password" id="password" placeholder="Password" required />
+      </div>
+
+      <div class="link-right">
+        <a href="#">Forgot password?</a>
+      </div>
+
+      <div class="input-field">
+        <input type="submit" value="Login" class="btn" />
+      </div>
+
+      <p id="message"></p>
+
+      <div class="link-center">
+        Not a member? <a href="signup.html">Signup now</a>
+      </div>
+    </form>
+
+  </div>
+  <script src="login.js"></script>
+</body>
+
+</html>
